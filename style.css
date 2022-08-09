@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.logo{
+    height: 50px;
+    width:190px;
+}
+
+header{
+    background-color: rgb(157, 180, 192);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    top: 0;
+}
+
+.lista-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
